@@ -56,6 +56,16 @@ button.search-button .material-symbols-outlined {
     margin-right: 10px;
 }
 
+@media (max-width: 767.98px) {
+    .search-form {
+      display: none;
+    }
+  
+    #menu-icon {
+      display: block;
+    }
+  }
+  
 /* home section */
 .home-img {
     width: 100%;                                
@@ -297,4 +307,4 @@ button.search-button .material-symbols-outlined {
   .social-icon:hover i {
     color: #ccc; 
   }
-  
+ 
